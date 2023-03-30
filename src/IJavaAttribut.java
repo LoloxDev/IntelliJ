@@ -1,3 +1,3 @@
-package PACKAGE_NAME;public interface IJavaAttribut {
+public interface IJavaAttribut {
     // commit
 }
