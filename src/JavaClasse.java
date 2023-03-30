@@ -1,5 +1,7 @@
 public class JavaClasse extends APossedantUnNom implements IJavaClasse {
 
+
+
     private String nom;
 
 
@@ -9,7 +11,9 @@ public class JavaClasse extends APossedantUnNom implements IJavaClasse {
     public void setAttributProtege(JavaMethode attributProtege) {
         this.attributProtege = attributProtege;
     }
-
+    public JavaMethode getAttributProtege() {
+        return attributProtege;
+    }
     public JavaClasse(String nom){
         this.nom=nom;
     }
@@ -20,7 +24,7 @@ public class JavaClasse extends APossedantUnNom implements IJavaClasse {
 
     @Override
     public void afficherNom() {
-
+        System.out.println("==DEBUT MESSAGE \nnom de classe : " + nom +"\n==FIN MESSAGE");
     }
 
 
