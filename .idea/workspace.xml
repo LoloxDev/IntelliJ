@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebbabd4-ee41-48a6-83e4-0dbfcdafdd8a" name="Changes" comment="">
+    <list default="true" id="cebbabd4-ee41-48a6-83e4-0dbfcdafdd8a" name="Changes" comment="Deleted line package">
+      <change afterPath="$PROJECT_DIR$/src/APossedantUnNom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IPossedantUnNom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaMethode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AAppartenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAppartenance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Editeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Editeur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IAppartenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAppartenance.java" afterDir="false" />
@@ -20,6 +24,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,7 +64,30 @@
       <option name="presentableId" value="Default" />
       <updated>1680113623750</updated>
     </task>
+    <task id="LOCAL-00001" summary="Deleted line package">
+      <created>1680163862235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680163862236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deleted line package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted line package" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
