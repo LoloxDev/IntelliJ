@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebbabd4-ee41-48a6-83e4-0dbfcdafdd8a" name="Changes" comment="pause 13h-14h">
-      <change afterPath="$PROJECT_DIR$/src/IObjet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AAppartenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAppartenance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Editeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Editeur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaAttribut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAttribut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaMethode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaMethode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +25,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Loris" />
+        <entry key="$PROJECT_DIR$" value="Laetitia" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NhQ22dO938lCRiuOlGQ26DI8Z2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,14 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
