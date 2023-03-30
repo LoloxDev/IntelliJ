@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface IAppartenance {
+public interface IAppartenance {
+
 }
