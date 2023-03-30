@@ -1,0 +1,140 @@
+https://github.com/LoloxDev/IntelliJ/tree/Developpement
+
+Notre dernière version du projet ce trouve sur la branche developpement.
+
+Groupe constitué de Mody, Laetitia, Nadjib, Julien
+
+Notre programme servira à optimiser la prochaine version d'Intellij IDEA.
+Notre programme compile et s'exécute correctement sans code de sortie différent de 0.
+
+Nous avons travaillés ensemble sur la totalité du projet. ( Initiation à l'outil Git via IntelliJ pour certains membres du groupe )
+
+Pour certains points, nous avons fait appel à Ines et Meriam.
+
+Nous avons réalisé le bonus scanner, mais pas celui de la class AApartenance qui permet de vérifier si les objets implémentes les interfaces.
+Mais nous avons laissé notre réflexion de code non fonctionnel en commentaire dans le fichier AApartenance.
+
+
+
+L'énnoncé :
+
+TP du 30 mars 2023
+A rendre à 17h à l'adresse email suivante : oop-avec-java@marianne.io
+Ou en m'envoyant un lien vers une archive via https://wormhole.app
+à l'adresse ci-dessus.
+Votre mission si vous l'acceptez, consiste à prototyper la prochaine version d'Intellij IDEA.
+Mon programme doit compiler et s'exécuter correctement sans code de sortie différent de 0 
+(sauf erreur gérée correctement au moyen d'exception levées).
+On représentera des concepts du langage de programmation orienté objet Java. Nous modéliserons le 
+concept de classes.
+Les interfaces, classes, classes abstraites suivantes 
+seront introduites ainsi que leurs méthodes respectives :
+A minima :
+- Editeur
+ public static void main(String[] args) {
+ /** ... **/
+ } 
+- IJavaClasse 
+ public boolean contientObjet(IObjet);
+ public IObjet construitObjet();
+- IJavaObjet
+ public boolean estUneInstanceDe(IJavaClasse saClasse);
+ public String nomDeClasse();
+- JavaClasse implements IJavaClasse 
+- JavaObjet implements IJavaObjet 
+Implémenter les constructeurs des classes JavaClasse, JavaObjet
+de manière à initialiser les noms des objets de ces classes,
+ainsi que leurs méthodes requises par les interfaces implémentées. 
+On pourra accéder aux attributs "nom" (de visibilité privée)
+au moyen de la méthode suivante dont la signature est la suivante :
+public String nom();
+---
+Bonus : 
+- IJavaMethode
+ public String nom();
+- IJavaAttribut
+ public String nom();
+- IAppartenance
+ public boolean appartientA(IJavaClasse saClasse); 
+- JavaAttribut implements IJavaAttribut
+---
+Les interfaces IJavaAttribut et IJavaMethode héritent de l'interface IAppartenance.
+ Attention "class" et "method" sont des mots-reservés,
+qu'on ne pourra pas utiliser comme nom de variable dans son programme.
+On implémentera IAppartenance au moyen d'une classe abstraite (AAppartenance) :
+- AAppartenance
+ abstract public boolean appartientA(IJavaClasse saClasse); 
+ public String nom() {
+ // À implémenter afin de retourner ou le nom d'un objet instanciant
+ // une classe implémentant l'interface IJavaMethode ou
+ // le nom d'une classe implémentant l'interface IAttribut selon les cas
+ }
+Dans notre classe Editeur, on construira une instance de la classe JavaClasse dont
+- le nom est "calculatrice" et
+- dont un attribut accessible de manière protégee (faire usage du mot-clef "protected") contiendra une 
+instance de la classe JavaMethode dont le nom est "calculer"
+une fois l'initialisation des attributs d'une instance de JavaClasse effectuée dans son constructeur.
+Ce constructeur possèdera ainsi la signature suivante :
+public JavaClasse (
+ String nomDeClasse
+ //, JavaMethode methode --- facultatif selon l'avancement
+)
+---
+On introduira les interfaces, classes abstraites suivantes de manière complémentaire ...
+IPossedantUnNom 
+String nom();
+void afficherNom();
+APossedantUnNom implements IPossedantUnNom 
+public abstract String nom();
+La classe abstraite APossedantUnNom 
+renvoie le nom des l'objet instancié des classes héritant de APossedantUnNom (mot-clef "extends" à 
+utiliser)
+Implémenter la méthode `afficheNom()` qui affiche le message suivant :
+```
+== DEBUT MESSAGE
+nom de classe : calculatrice 
+== FIN MESSAGE
+``` 
+(le message est compris entre les triple guillemets simple en excluant les guillemets).
+Exemple ci-dessus obtenu pour l'instance de JavaClasse possedant "calculatrice"
+comme nom passé au constructeur de JavaClasse
+`afficheNom` sera implémenté au niveau de la classe abstraite APossedantUnNom
+avant d'être surchargée dans l'une de ses deux classes filles JavaClasse (ou JavaMethode
+ou JavaAttribut au choix en bonus pour ces deux dernières classes).
+---
+De manière similaire, l'appel à la méthode `afficheNom()` affiche à l'écran :
+```
+== DEBUT MESSAGE
+nom de méthode : calculer 
+== FIN MESSAGE
+``` 
+Ci-dessus un exemple d'affichage obtenu lorsque l'instance d'un objet de la classe
+JavaMethode possède "calculer" comme nom passé au constructeur de la classe JavaMethode. 
+---
+De manière similaire, l'appel à la méthode `afficheNom()` affiche à l'écran :
+```
+== DEBUT MESSAGE
+nom d'attribut : type operation 
+== FIN MESSAGE
+``` 
+Ci-dessus un exemple d'affichage obtenu lorsque l'instance d'un objet de la classe
+JavaAttribut possède "type operation" comme nom passé au constructeur de la classe JavaAttribut. 
+---
+Bonus :
+On autorisera depuis le point d'entrée la construction
+d'une instance de la classe JavaClasse,
+dont le nom a été préalablement saisi au clavier :
+- passage d'argument au lancement du programme :
+```
+java -classpath ./src Editeur "calculatriceBinaire" 
+```
+ ou
+- Utilisation de Scanner et System.in
+On autorisera depuis le point d'entrée de construire une instance de la classe IJavaClasse,
+dont le nom de son instance de IJavaMethode a été préalablement saisi au clavier.
+- passage d'argument au lancement du programme :
+```
+java -classpath ./src Editeur "calculatriceBinaire" "calculerNombresBinaires"
+```
+- Utilisation de Scanner et System.in
+Bon courage, tout ira bien :)
