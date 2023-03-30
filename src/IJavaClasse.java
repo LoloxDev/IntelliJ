@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface IJavaClasse {
+public interface IJavaClasse {
+    public boolean contientObjet(IObjet iobjet);
+    public IObjet construitObjet();
 }

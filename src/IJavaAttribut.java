@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface IJavaAttribut {
+public interface IJavaAttribut extends IAppartenance {
+    public String nom();
 }

@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface IJavaObjet {
+public interface IJavaObjet {
+    public boolean estUneInstanceDe(IJavaClasse saClasse);
+    public String nomDeClasse();
 }
