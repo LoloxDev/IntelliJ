@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebbabd4-ee41-48a6-83e4-0dbfcdafdd8a" name="Changes" comment="pause 13h-14h">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cebbabd4-ee41-48a6-83e4-0dbfcdafdd8a" name="Changes" comment="Mise en place du bonus Scanner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AAppartenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAppartenance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Editeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Editeur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAttribut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAttribut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaMethode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaMethode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaObjet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaObjet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680174144304</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Mise en place du bonus Scanner">
+      <created>1680185077270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680185077270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,7 +100,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleted line package" />
     <MESSAGE value="pause 13h-14h" />
-    <option name="LAST_COMMIT_MESSAGE" value="pause 13h-14h" />
+    <MESSAGE value="Mise en place du bonus Scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du bonus Scanner" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,12 +1,15 @@
 public class JavaObjet implements IJavaObjet {
 
 
+    // Attributs
     private String nom;
 
+    // Constructeur
     public JavaObjet(String nom){
         this.nom = nom;
     }
 
+    // Getter
     public String nom() {
         return nom;
     }
