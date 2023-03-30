@@ -1,34 +1,36 @@
-public class JavaClasse implements IJavaClasse{
+public class JavaClasse extends APossedantUnNom implements IJavaClasse {
 
     private String nom;
-    protected JavaMethode calculer;
 
-    public JavaClasse(String nom) {
-        this.nom = nom;
+
+
+
+    protected JavaMethode attributProtege;
+    public void setAttributProtege(JavaMethode attributProtege) {
+        this.attributProtege = attributProtege;
     }
 
-    public String getNom() {
+    public JavaClasse(String nom){
+        this.nom=nom;
+    }
+
+    public String nom() {
         return nom;
     }
 
-    public JavaMethode getCalculer() {
-        return calculer;
+    @Override
+    public void afficherNom() {
+
     }
 
-    public void setCalculer(JavaMethode calculer) {
-        this.calculer = calculer;
+
+    @Override
+    public boolean contientObjet(IObjet iobjet) {
+        return false;
     }
 
-    public static class JavaMethode {
-        private String nom;
-
-        public JavaMethode(String nom) {
-            this.nom = nom;
-        }
-
-        public String Getnom() {
-            return nom;
-        }
+    @Override
+    public IObjet construitObjet() {
+        return null;
     }
-
 }
