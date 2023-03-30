@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cebbabd4-ee41-48a6-83e4-0dbfcdafdd8a" name="Changes" comment="Deleted line package">
-      <change afterPath="$PROJECT_DIR$/src/APossedantUnNom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPossedantUnNom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaMethode.java" afterDir="false" />
+    <list default="true" id="cebbabd4-ee41-48a6-83e4-0dbfcdafdd8a" name="Changes" comment="pause 13h-14h">
+      <change afterPath="$PROJECT_DIR$/src/IObjet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AAppartenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AAppartenance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Editeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Editeur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IAppartenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAppartenance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IJavaAttribut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IJavaAttribut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IJavaClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IJavaClasse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IJavaMethode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IJavaMethode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IJavaObjet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IJavaObjet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaAttribut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAttribut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaObjet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaObjet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaMethode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaMethode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +21,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Laetitia" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Loris" />
+        <entry key="$PROJECT_DIR$" value="Nadjib" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680163862236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pause 13h-14h">
+      <created>1680174144304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680174144304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,7 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Deleted line package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted line package" />
+    <MESSAGE value="pause 13h-14h" />
+    <option name="LAST_COMMIT_MESSAGE" value="pause 13h-14h" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

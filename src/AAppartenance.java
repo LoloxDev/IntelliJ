@@ -1,7 +1,7 @@
 public abstract class AAppartenance implements IAppartenance  {
     abstract public boolean appartientA(IJavaClasse saClasse);
-    public String nom() {
-        if ( x instanceof IJavaMethode)
+    public void nom() {
+     //  if ( x instanceof IJavaMethode)
 // À implémenter afin de retourner ou le nom d'un objet instanciant
 // une classe implémentant l'interface IJavaMethode ou
 // le nom d'une classe implémentant l'interface IAttribut selon les cas
@@ -12,6 +12,8 @@ public abstract class AAppartenance implements IAppartenance  {
                 return y.nom;
             } else {
                 return "Cette class n'est pas reconnue";
-            }
-    } */
+            } */
+    }
+
+
 }
